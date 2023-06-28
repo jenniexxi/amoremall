@@ -1,0 +1,414 @@
+{
+  "items":[
+    {
+      "id":0,
+      "thumb": "./assets/img/recom01.png",
+      "saleThumb":"./assets/img/sale_first_01.png",
+      "brand":"아이오페",
+      "name":"슈퍼바이탈 기초 2종 세트 (150ml+150ml)",
+      
+      "price":{
+        "ori":125000,
+        "curr":95000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품"
+      ],
+      "cate1":0,
+      "cate2":2,
+      "cate3":2,
+      "sale1":0
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom02.png",
+      "saleThumb":"./assets/img/sale_first_02.png",
+      "brand":"헤라",
+      "name":"블랙 쿠션 SPF34/PA++",
+      
+      "price":{
+        "ori":66000,
+        "curr":66000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+          
+      ],
+      "cate1":0,
+      "cate2":2,
+      "cate3":1,
+      "sale1":1
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom03.png",
+      "saleThumb":"./assets/img/sale_first_03.png",
+      "brand":"설화수",
+      "name":"자음생2종 파우치 지함보 (150ml+125ml)",
+      
+      "price":{
+        "ori":205000,
+        "curr":184500
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "기프트카드"
+      ],
+      "cate1":3,
+      "cate2":1,
+      "cate3":0,
+      "sale1":2
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom04.png",
+      "saleThumb":"./assets/img/sale_first_04.png",
+      "brand":"아이오페",
+      "name":"아이오페 스템3 앰플 50ml",
+      
+      "price":{
+        "ori":85000,
+        "curr":85000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품",
+        "기프트카드"
+      ],
+      "cate1":0,
+      "cate2":0,
+      "cate3":2,
+      "sale1":0
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom05.jpg",
+      "saleThumb":"./assets/img/sale_first_05.png",
+      "brand":"바이탈뷰티",
+      "name":"[2box] NEW 슈퍼콜라겐 특허콜라겐",
+      
+      "price":{
+        "ori":192000,
+        "curr":134400
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+
+      ],
+      "cate1":0,
+      "cate2":0,
+      "cate3":1,
+      "sale1":4
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom04.png",
+      "saleThumb":"./assets/img/sale_first_06.png",
+      "brand":"아이오페",
+      "name":"아이오페 스템3 앰플 50ml",
+      
+      "price":{
+        "ori":85000,
+        "curr":76500
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품",
+        "기프트카드"
+      ],
+      "cate1":4,
+      "cate2":2,
+      "cate3":0,
+      "sale1":0
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom07.png",
+      "saleThumb":"./assets/img/sale_first_01.png",
+      "brand":"한율",
+      "name":"어린쑥 진정맑은 클렌징 오일 200ml",
+      
+      "price":{
+        "ori":28000,
+        "curr":28000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품"
+      ],
+      "cate1":0,
+      "cate2":0,
+      "cate3":2,
+      "sale1":2
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom08.png",
+      "saleThumb":"./assets/img/sale_first_02.png",
+      "brand":"아이오페",
+      "name":"글루타 비타민C 토닝 앰플 23g",
+      
+      "price":{
+        "ori":55000,
+        "curr":44550
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품",
+        "기프트카드"
+      ],
+      "cate1":0,
+      "cate2":5,
+      "cate3":1,
+      "sale1":1
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom09.png",
+      "saleThumb":"./assets/img/sale_first_03.png",
+      "brand":"한율",
+      "name":"어린쑥 진정맑은 클렌징 폼 120g",
+      
+      "price":{
+        "ori":16000,
+        "curr":16000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "기프트카드"
+      ],
+      "cate1":0,
+      "cate2":0,
+      "cate3":0,
+      "sale1":1
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom10.png",
+      "saleThumb":"./assets/img/sale_first_04.png",
+      "brand":"마몽드",
+      "name":"마몽드 트리플 멀티 클렌징 크림 190ml",
+      
+      "price":{
+        "ori":20000,
+        "curr":20000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품",
+        "기프트카드"
+      ],
+      "cate1":1,
+      "cate2":0,
+      "cate3":2,
+      "sale1":4
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom01.png",
+      "saleThumb":"./assets/img/sale_first_05.png",
+      "brand":"아이오페",
+      "name":"슈퍼바이탈 기초 2종 세트 (150ml+150ml)",
+      
+      "price":{
+        "ori":125000,
+        "curr":95000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+
+      ],
+      "cate1":4,
+      "cate2":3,
+      "cate3":1,
+      "sale1":0
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom02.png",
+      "saleThumb":"./assets/img/sale_first_06.png",
+      "brand":"헤라",
+      "name":"블랙 쿠션 SPF34/PA++",
+      
+      "price":{
+        "ori":66000,
+        "curr":66000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품"
+      ],
+      "cate1":1,
+      "cate2":2,
+      "cate3":0,
+      "sale1":5
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom03.png",
+      "saleThumb":"./assets/img/sale_first_07.png",
+      "brand":"설화수",
+      "name":"자음생2종 파우치 지함보 (150ml+125ml)",
+      
+      "price":{
+        "ori":205000,
+        "curr":184500
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품",
+        "기프트카드"
+      ],
+      "cate1":2,
+      "cate2":2,
+      "cate3":0,
+      "sale1":5
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom04.png",
+      "saleThumb":"./assets/img/sale_first_05.png",
+      "brand":"아이오페",
+      "name":"아이오페 스템3 앰플 50ml",
+      
+      "price":{
+        "ori":85000,
+        "curr":76500
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "기프트카드"
+      ],
+      "cate1":2,
+      "cate2":3,
+      "cate3":1,
+      "sale1":3
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom10.png",
+      "saleThumb":"./assets/img/sale_first_04.png",
+      "brand":"마몽드",
+      "name":"마몽드 트리플 멀티 클렌징 크림 190ml",
+      
+      "price":{
+        "ori":20000,
+        "curr":20000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품",
+        "기프트카드"
+      ],
+      "cate3":1
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom01.png",
+      "saleThumb":"./assets/img/sale_first_05.png",
+      "brand":"아이오페",
+      "name":"슈퍼바이탈 기초 2종 세트 (150ml+150ml)",
+      
+      "price":{
+        "ori":125000,
+        "curr":95000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+
+      ],
+      "cate3":0
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom01.png",
+      "saleThumb":"./assets/img/sale_first_06.png",
+      "brand":"아이오페",
+      "name":"슈퍼바이탈 기초 2종 세트 (150ml+150ml)",
+      
+      "price":{
+        "ori":125000,
+        "curr":95000
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품"
+      ],
+      "cate3":0
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom03.png",
+      "saleThumb":"./assets/img/sale_first_07.png",
+      "brand":"설화수",
+      "name":"자음생2종 파우치 지함보 (150ml+125ml)",
+      
+      "price":{
+        "ori":205000,
+        "curr":184500
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "사은품",
+        "기프트카드"
+      ],
+      "cate3":1
+    },
+    {
+      "id":0,
+      "thumb": "./assets/img/recom04.png",
+      "saleThumb":"./assets/img/sale_first_05.png",
+      "brand":"아이오페",
+      "name":"아이오페 스템3 앰플 50ml",
+      
+      "price":{
+        "ori":85000,
+        "curr":76500
+      },
+      "rate": "4.8",
+      "review":"(6)",
+      "hashtag": "#유수분 밸런스",
+      "benefit":[
+        "기프트카드"
+      ],
+      "cate3":0
+    }
+  ]
+}

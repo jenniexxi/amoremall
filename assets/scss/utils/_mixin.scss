@@ -1,0 +1,79 @@
+//position
+@mixin postionCt{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin postionVt{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@mixin postionHr{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+//disply
+@mixin displayFlexCl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@mixin displayFlexRo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+@mixin displayFlexSb{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+//ellipse 글자 생략
+@mixin ellipse($line:1){
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @if($line > 1){
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+  }
+  @else{
+    display: block;
+    white-space: nowrap;
+  }
+}
+
+
+$mobile: 767px; //320 최소
+$tablet: 1023px; // 768 최소
+$desktop: 1200px; //1024 최소 
+
+/*반응형, 브라우저 크기가 767px 이하일때*/
+@mixin mobile{
+  @media (max-width: $mobile){
+    @content;
+  }
+}
+
+/*반응형, 브라우저 크기가 768이상, 1023px 이하일때*/
+@mixin tablet{
+  @media (max-width: $tablet){
+    @content;
+  }
+}
+
+/*반응형, 브라우저 크기가 1024px 이상일때*/
+@mixin desktop{
+  @media (max-width: $desktop){
+    @content;
+  }
+}

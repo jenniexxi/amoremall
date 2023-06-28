@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#161615;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="ic_floating_top" transform="translate(-6.34 -6.181)">
+        <path id="사각형_521" fill="none" d="M0 0H20V20H0z" transform="translate(6.34 6.181)"/>
+        <path id="패스_336" d="M9.34 15.281l7.1-7.1 7.1 7.1" class="cls-2"/>
+        <path id="선_6" d="M0 0L0 16.137" class="cls-2" transform="translate(16.44 8.181)"/>
+    </g>
+</svg>

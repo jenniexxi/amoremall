@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <path data-name="사각형 268" style="opacity:.546;fill:none" d="M0 0h32v32H0z"/>
+    <path data-name="패스 36" d="m2.418 13.235 2.813 3.92 2.887-3.92" transform="rotate(13 8.29 11.938)" style="stroke:#a0a0a0;stroke-width:1.5px;fill:none"/>
+    <path data-name="패스 331" d="M16.781 9.867v5.48l3.069 2.563" transform="translate(-.668 .544)" style="stroke-linejoin:round;stroke-miterlimit:10;stroke:#a0a0a0;stroke-width:1.5px;fill:none"/>
+    <path data-name="패스 332" d="M6.276 20.934a11.484 11.484 0 1 0-1.245-5.184c0 .171.019.339.025.508" style="stroke:#a0a0a0;stroke-width:1.5px;fill:none" transform="translate(-.418 -.25)"/>
+    <g style="fill:#fff;stroke-linejoin:round;stroke-miterlimit:10">
+        <path d="m5.084 10.197-.025-.025-.024.025-.53-.557-4.27-4.487-.013-.014-.012-.014-.03-.034a3.461 3.461 0 0 1-.93-2.367A3.478 3.478 0 0 1 2.724-.75c.87 0 1.703.332 2.335.904A3.494 3.494 0 0 1 7.394-.75a3.478 3.478 0 0 1 3.475 3.474c0 .882-.33 1.722-.93 2.367l-.03.034-.012.014-.013.014-4.27 4.487-.53.557z" style="stroke:none" transform="translate(19.762 18.808)"/>
+        <path d="m5.07 9.123 4.27-4.487.04-.046a2.724 2.724 0 1 0-4.32-3.27A2.724 2.724 0 1 0 .74 4.59l.038.046 4.27 4.487.011-.012.012.012m0 1.5a91.05 91.05 0 0 1-.042 0 1.5 1.5 0 0 1-1.068-.466L-.309 5.67a1.51 1.51 0 0 1-.05-.056l-.02-.024A4.208 4.208 0 0 1-1.5 2.724 4.229 4.229 0 0 1 2.724-1.5c.84 0 1.652.255 2.335.708A4.235 4.235 0 0 1 7.394-1.5a4.229 4.229 0 0 1 4.225 4.224 4.208 4.208 0 0 1-1.121 2.866l-.02.024a1.509 1.509 0 0 1-.051.056l-4.27 4.487a1.5 1.5 0 0 1-1.086.466z" style="fill:#fff;stroke:none" transform="translate(19.762 18.808)"/>
+    </g>
+    <path data-name="Path" d="m5.059 9.111-.011.011-4.27-4.486-.039-.046a2.724 2.724 0 1 1 4.32-3.27A2.724 2.724 0 1 1 9.38 4.59l-.04.046-4.269 4.487-.011-.011z" transform="translate(19.762 18.808)" style="stroke-linejoin:round;stroke-miterlimit:10;stroke:#a0a0a0;stroke-width:1.5px;fill:none"/>
+</svg>

@@ -1,0 +1,88 @@
+{
+  "items":[
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"'아모레세일페스타' 티징",
+      "desc":"알람신청하고 공유하면<br>라이브방송 슈퍼쿠폰과 디올지갑까지!",
+      "thumb":"./assets/img/mainbanner01.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"메타그린 X 마이멜로디",
+      "desc":"#귀여움한도초과 #대세다이어트<br>최대 30% SALE + 키링 증정",
+      "thumb":"./assets/img/mainbanner02.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"아모레퍼시픽 X 터래기",
+      "desc":"사랑스러운 터래기 쿠션과 젤네일 출시!<br>아모레몰 단독 예약판매 혜택까지!",
+      "thumb":"./assets/img/mainbanner03.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"여름을 함께할 헤라 선크림",
+      "desc":"선밤/톤업/멀티디펜스/프레쉬<br>수딩마스크 5매 + 트래블 파우치 증정",
+      "thumb":"./assets/img/mainbanner04.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"프레쉬&내추럴 여름 향기",
+      "desc":"구딸 전구매 바디 4종 증정<br>100ml 구매 시, 구딸 린넨파우치",
+      "thumb":"./assets/img/mainbanner05.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"마몽드 토너 50% 반값특가",
+      "desc":"크림/클렌징 20% 할인 + 스페셜기프트<br>3만원이상 구매시, 추가 사은품 증정까지",
+      "thumb":"./assets/img/mainbanner06.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"'아모레세일페스타' 티징",
+      "desc":"알람신청하고 공유하면<br>라이브방송 슈퍼쿠폰과 디올지갑까지!",
+      "thumb":"./assets/img/mainbanner01.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"메타그린 X 마이멜로디",
+      "desc":"#귀여움한도초과 #대세다이어트<br>최대 30% SALE + 키링 증정",
+      "thumb":"./assets/img/mainbanner02.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"아모레퍼시픽 X 터래기",
+      "desc":"사랑스러운 터래기 쿠션과 젤네일 출시!<br>아모레몰 단독 예약판매 혜택까지!",
+      "thumb":"./assets/img/mainbanner03.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"여름을 함께할 헤라 선크림",
+      "desc":"선밤/톤업/멀티디펜스/프레쉬<br>수딩마스크 5매 + 트래블 파우치 증정",
+      "thumb":"./assets/img/mainbanner04.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"프레쉬&내추럴 여름 향기",
+      "desc":"구딸 전구매 바디 4종 증정<br>100ml 구매 시, 구딸 린넨파우치",
+      "thumb":"./assets/img/mainbanner05.jpg"
+    },
+    {
+      "id":0,
+      "cate":"MD's Choice",
+      "title":"마몽드 토너 50% 반값특가",
+      "desc":"크림/클렌징 20% 할인 + 스페셜기프트<br>3만원이상 구매시, 추가 사은품 증정까지",
+      "thumb":"./assets/img/mainbanner06.jpg"
+    }
+  ]
+}

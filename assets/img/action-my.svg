@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <path data-name="사각형 267" style="opacity:.546;fill:none" d="M0 0h32v32H0z"/>
+    <g data-name="그룹 2385" transform="translate(-242.5 -578)">
+        <circle data-name="타원 291" cx="4.5" cy="4.5" r="4.5" transform="translate(251 583)" style="stroke:#a0a0a0;stroke-miterlimit:10;stroke-width:1.5px;fill:none"/>
+        <path data-name="패스 344" d="M1374.719 836.494c0-7.273 5.249-10 10.5-10a13.5 13.5 0 0 1 4.682.823c3.149 1.117 5.818 3.991 5.818 9.177" transform="translate(-1129.719 -232.494)" style="stroke:#a0a0a0;stroke-miterlimit:10;stroke-width:1.5px;fill:none"/>
+    </g>
+    <g data-name="그룹 1298">
+        <g data-name="패스 1367" style="fill:#fff">
+            <path d="M13.391 10.25H1.913C.445 10.25-.75 9.066-.75 7.611V2.89C-.75 1.434.445.25 1.913.25h11.478c1.469 0 2.663 1.184 2.663 2.639V7.61c0 1.455-1.194 2.639-2.663 2.639z" style="stroke:none" transform="translate(14 17.507)"/>
+            <path d="M1.913 1A1.901 1.901 0 0 0 0 2.889V7.61C0 8.654.857 9.5 1.913 9.5h11.478a1.901 1.901 0 0 0 1.913-1.889V2.89A1.901 1.901 0 0 0 13.391 1H1.913m0-1.5h11.478c1.882 0 3.413 1.52 3.413 3.389V7.61c0 1.869-1.53 3.389-3.413 3.389H1.913C.031 11-1.5 9.48-1.5 7.611V2.89C-1.5 1.02.031-.5 1.913-.5z" style="fill:#a0a0a0;stroke:none" transform="translate(14 17.507)"/>
+        </g>
+        <g data-name="그룹 1">
+            <path data-name="합치기 1" d="M8.538 5.327V.182h1.989v5.145zm-2.474 0V.182H7.5v5.145zm-2.193 0V.182H5.3v5.145zm-3.288 0V.182h2.758v5.145z" transform="translate(16 20)" style="fill:#a0a0a0"/>
+        </g>
+    </g>
+</svg>

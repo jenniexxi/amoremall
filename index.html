@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amoremall</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+  <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./assets/img/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="wrapper"> 
+    <header class="header">
+      <div class="header-top">
+        <h1 class="logo-area">
+          <a href="">
+            <span class="blind">AMORE MALL</span>
+            <img src="./assets/img/header-logo.svg" alt="AMORE MALL">
+          </a>
+        </h1>
+        <div class="link-area">
+          <button type="button" class="btn-link">
+            <span class="blind">몰리스트 열기</span>
+            <span class="icon"></span>
+          </button>
+          <ul class="link-popup">
+            <li class="item">
+              <button type="button" class="btn-link active">
+                <span class="link-thumb">
+                  <i class="icon-amore-mall"></i>
+                </span>
+                <span class="link-text">아모레 몰</span>
+              </button>
+            </li>
+            <li class="item">
+              <button type="button" class="btn-link">
+                <span class="link-thumb">
+                  <i class="icon-amore-store"></i>
+                </span>
+                <span class="link-text">아모레 스토어</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="util-area">
+            <a href="" class="search"><span class="blind">검색</span></a>
+            <a href="" class="cart"><span class="blind">장바구니</span></a>
+        </div>
+      </div>
+      <nav class="gnb">
+        <div class="gnb-inner">
+          <ul class="gnb-list" id="menuData">
+          </ul> 
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <h2 class="blind">홈</h2>
+      <div class="contents">
+        <!-- mainbanner -->
+        <section class="sc-mainbanner swiper" id="banner_swiper">
+          <h2 class="blind">메인 배너 영역</h2>
+          <div class="swiper-wrapper" id="bannerData1"></div>
+          <div class="swiper-page">
+            <div class="page-area">
+            </div>
+            <button class="btn-area" id="allBanner"><span class="blind">전체보기</span></button>
+          </div>
+        </section>
+        <!-- popup_01 -->
+        <section class="modal-popup-wrap">
+          <div class="popup-area">
+            <div class="popup-bg"></div>
+            <div class="popup-inner">
+              <button type="button" class="btn-handler">
+                <span class="blind">레이어 끌기 버튼</span>
+              </button>
+              <div class="head-wrap">
+                <h2>이벤트 전체보기</h2>
+              </div>
+              <div class="cont-wrap">
+                <ul class="cont-list" id="allbannerData">
+                </ul>
+              </div>
+              <button class="btn-close">
+                <span class="blind">전체보기 닫기</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- quickbanner -->
+        <section class="sc-quickbanner">
+            <h2 class="blind">quickbanner</h2>
+            <div class="swiper" id="quickbanner-swiper">
+              <div class="swiper-wrapper" id="quickBannerData">
+              </div>
+            </div>
+        </section>
+        <!-- recom -->
+        <section class="sc-recom">
+          <div class="headline">
+            <h3 class="title"><a href="">당신의 공병템이 될 자신 있어요</a></h3>
+            <div class="sub-area">
+              <button type="button" class="btn-option" id="skinType">복합성</button>
+              <button type="button" class="btn-option" id="trouble">트러블</button>
+              <span class="text desc">이 고민이라면</span>
+            </div>
+          </div>
+          <div class="group-product swiper" id="recom-swiper">
+            <div class="swiper-wrapper" id="sortData"></div>
+          </div>
+        </section>
+        <!-- popup_02 -->
+        <section class="modal-popup-wrap sc-popup02">
+          <div class="popup-area">
+            <div class="popup-bg"></div>
+            <div class="popup-inner">
+              <button type="button" class="btn-handler">
+                <span class="blind">레이어 끌기 버튼</span>
+              </button>
+              <div class="head-wrap">
+                <h2>피부타입</h2>
+              </div>
+              <div class="cont-wrap">
+                <ul class="option-list" id="pop_skin">
+                  <li data-cate1="0"><button type="button">복합성</button></li>
+                  <li data-cate1="1"><button type="button">건성</button></li>
+                  <li data-cate1="2"><button type="button">극건성</button></li>
+                  <li data-cate1="3"><button type="button">지성</button></li>
+                  <li data-cate1="4"><button type="button">수분부족지성</button></li>
+                  <li data-cate1="5"><button type="button">중성</button></li>
+              </ul>
+              </div>
+              <button class="btn-close">
+                <span class="blind">전체보기 닫기</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- popup_03 -->
+        <section class="modal-popup-wrap sc-popup03">
+          <div class="popup-area">
+            <div class="popup-bg"></div>
+            <div class="popup-inner">
+              <button type="button" class="btn-handler">
+                <span class="blind">레이어 끌기 버튼</span>
+              </button>
+              <div class="head-wrap">
+                <h2>피부고민</h2>
+              </div>
+              <div class="cont-wrap">
+                <ul class="option-list" id="pop_trouble">
+                  <li data-cate2="0"><button type="button">고민없음</button></li>
+                  <li data-cate2="1"><button type="button">민감성</button></li>
+                  <li data-cate2="2"><button type="button">트러블</button></li>
+                  <li data-cate2="3"><button type="button">탄력없음</button></li>
+                  <li data-cate2="4"><button type="button">주름</button></li>
+                  <li data-cate2="5"><button type="button">칙칙함</button></li>
+                  <li data-cate2="6"><button type="button">건조함</button></li>
+                  <li data-cate2="7"><button type="button">모공</button></li>
+              </ul>
+              </div>
+              <button class="btn-close">
+                <span class="blind">전체보기 닫기</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- new -->
+        <section class="sc-new">
+          <div class="headline">
+            <h3 class="title"><a href="">신상을 밝혀라</a></h3>
+            <div class="sub-area">
+              <span class="text desc">베일에 싸여있던 신상품을 공개합니다</span>
+            </div>
+          </div>
+          <div class="group_contents swiper" id="new-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="" class="thumb-area">
+                  <div class="img-wrap">
+                    <img src="./assets/img/new_large01.jpeg" alt="블루 아줄렌 클라우드 토너 150ml">
+                  </div>
+                  <div class="mini-wrap product-inner">
+                    <div class="img-box"><img src="./assets/img/new_small01.jpeg" alt="마몽드"></div>
+                    <div class="text-box pro-text-area">
+                      <div class="pro-title">
+                        <strong class="brand">마몽드</strong>
+                        <span class="name">블루 아줄렌 클라우드 토너 150ml</span>
+                      </div>
+                      <div class="pro-price">
+                        <em class="discount-rate">20%</em>
+                        <span class="price"><strong class="size_16">36,000</strong>원</span>
+                        <span class="del-price">28,800원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-area">
+                  <strong>닦토말고 토닥토닥!</strong>
+                  <p>자극 받은 피부! 어디에나 진정 케어링</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="thumb-area">
+                  <div class="img-wrap">
+                    <img src="./assets/img/new_large02.jpeg" alt="딥클렌징 3in1 진동 울트라 딥클렌저[사은품증정_유산균클렌징]">
+                  </div>
+                  <div class="mini-wrap product-inner">
+                    <div class="img-box">
+                      <img src="./assets/img/new_small02.jpeg" alt="페이스팩토리"></div>
+                    <div class="text-box pro-text-area">
+                      <div class="pro-title">
+                        <strong class="brand">페이스팩토리</strong>
+                        <span class="name">딥클렌징 3in1 진동 울트라 딥클렌저</span>
+                      </div>
+                      <div class="pro-price">
+                        <em class="discount-rate">5%</em>
+                        <span class="price"><strong class="size_16">59,000</strong>원</span>
+                        <span class="del-price">56,900원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-area">
+                  <strong>듀얼 브러쉬, 3IN1 맞춤모드 클렌징</strong>
+                  <p>초미세 진동으로 모공 속까지 깨끗하게!</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="thumb-area">
+                  <div class="img-wrap">
+                    <img src="./assets/img/new_large03.jpeg" alt="마이 스킨 DNA">
+                  </div>
+                  <div class="mini-wrap product-inner">
+                    <div class="img-box">
+                      <img src="./assets/img/new_small03.jpeg" alt="아모레 시티랩"></div>
+                    <div class="text-box pro-text-area">
+                      <div class="pro-title">
+                        <strong class="brand">아모레 시티랩</strong>
+                        <span class="name">마이 스킨 DNA</span>
+                      </div>
+                      <div class="pro-price">
+                        <em class="discount-rate">5%</em>
+                        <span class="price"><strong class="size_16">100,000</strong>원</span>
+                        <span class="del-price">95,000원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-area">
+                  <strong>11가지 피부 특성 분석 서비스!</strong>
+                  <p>런칭 기념 50% 특가 행사 중!</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="thumb-area">
+                  <div class="img-wrap">
+                    <img src="./assets/img/new_large04.jpg" alt="NEW 센슈얼 누드 글로스 5g">
+                  </div>
+                  <div class="mini-wrap product-inner">
+                    <div class="img-box">
+                      <img src="./assets/img/new_small04.png" alt="헤라">
+                    </div>
+                    <div class="text-box pro-text-area">
+                      <div class="pro-title">
+                        <strong class="brand">헤라</strong>
+                        <span class="name">NEW 센슈얼 누드 글로스 5g</span>
+                      </div>
+                      <div class="pro-price">
+                        <em class="discount-pate">5%</em>
+                        <span class="price"><strong class="size_16">38,000</strong>원</span>
+                        <span class="del-price">40,000원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-area">
+                  <strong>NEW 볼륨 메이크업 립글로스</strong>
+                  <p>#밀착광글로스 #플럼핑메이크업룩</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="thumb-area">
+                  <div class="img-wrap">
+                    <img src="./assets/img/new_large06.jpg" alt="NEW 센슈얼 누드 글로스 5g">
+                  </div>
+                  <div class="mini-wrap product-inner">
+                    <div class="img-box">
+                      <img src="./assets/img/new_small04.png" alt="헤라">
+                    </div>
+                    <div class="text-box pro-text-area">
+                      <div class="pro-title">
+                        <strong class="brand">헤라</strong>
+                        <span class="name">NEW 센슈얼 누드 글로스 5g</span>
+                      </div>
+                      <div class="pro-price">
+                        <em class="discount-rate">5%</em>
+                        <span class="price"><strong class="size_16">38,000</strong>원</span>
+                        <span class="del-price">40,000원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-area">
+                  <strong>NEW 볼륨 메이크업 립글로스</strong>
+                  <p>#밀착광글로스 #플럼핑메이크업룩</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="thumb-area">
+                  <div class="img-wrap">
+                    <img src="./assets/img/new_large03.jpeg" alt="마이 스킨 DNA">
+                  </div>
+                  <div class="mini-wrap product-inner">
+                    <div class="img-box">
+                      <img src="./assets/img/new_small03.jpeg" alt="아모레 시티랩"></div>
+                    <div class="text-box pro-text-area">
+                      <div class="pro-title">
+                        <strong class="brand">아모레 시티랩</strong>
+                        <span class="name">마이 스킨 DNA</span>
+                      </div>
+                      <div class="pro-price">
+                        <em class="discount-rate">5%</em>
+                        <span class="price"><strong class="size_16">100,000</strong>원</span>
+                        <span class="del-price">95,000원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-area">
+                  <strong>11가지 피부 특성 분석 서비스!</strong>
+                  <p>런칭 기념 50% 특가 행사 중!</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="thumb-area">
+                  <div class="img-wrap">
+                    <img src="./assets/img/new_large04.jpg" alt="NEW 센슈얼 누드 글로스 5g">
+                  </div>
+                  <div class="mini-wrap product-inner">
+                    <div class="img-box">
+                      <img src="./assets/img/new_small04.png" alt="헤라">
+                    </div>
+                    <div class="text-box pro-text-area">
+                      <div class="pro-title">
+                        <strong class="brand">헤라</strong>
+                        <span class="name">NEW 센슈얼 누드 글로스 5g</span>
+                      </div>
+                      <div class="pro-price">
+                        <em class="discount-pate">5%</em>
+                        <span class="price"><strong class="size_16">38,000</strong>원</span>
+                        <span class="del-price">40,000원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-area">
+                  <strong>NEW 볼륨 메이크업 립글로스</strong>
+                  <p>#밀착광글로스 #플럼핑메이크업룩</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="thumb-area">
+                  <div class="img-wrap">
+                    <img src="./assets/img/new_large02.jpeg" alt="딥클렌징 3in1 진동 울트라 딥클렌저[사은품증정_유산균클렌징]">
+                  </div>
+                  <div class="mini-wrap product-inner">
+                    <div class="img-box">
+                      <img src="./assets/img/new_small02.jpeg" alt="페이스팩토리"></div>
+                    <div class="text-box pro-text-area">
+                      <div class="pro-title">
+                        <strong class="brand">페이스팩토리</strong>
+                        <span class="name">딥클렌징 3in1 진동 울트라 딥클렌저</span>
+                      </div>
+                      <div class="pro-price">
+                        <em class="discount-rate">5%</em>
+                        <span class="price"><strong class="size_16">59,000</strong>원</span>
+                        <span class="del-price">56,900원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-area">
+                  <strong>듀얼 브러쉬, 3IN1 맞춤모드 클렌징</strong>
+                  <p>초미세 진동으로 모공 속까지 깨끗하게!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- advice -->
+        <section class="sc-associate">
+          <div class="headline">
+            <h2 class="title">이런 상품은 어떠세요?</h2>
+          </div>
+          <div class="swiper" id="advice-swiper">
+            <div class="swiper-wrapper" id="adviceData"></div>
+          </div>
+        </section>
+        <!-- sale -->
+        <section class="sc-discount">
+          <div class="headline">
+            <h2 class="title"><a href="">오늘 이 혜택, 내일은 없을지도</a></h2>
+          </div>
+          <div class="swiper btn sale-swiper">
+            <div class="swiper-wrapper sale-btn">
+              <div class="swiper-slide active" data-sale1="0">
+                <button type="button">특가</button>
+              </div>
+              <div class="swiper-slide" data-sale1="1">
+                <button type="button">종료임박</button>
+              </div>
+              <div class="swiper-slide" data-sale1="2">
+                <button type="button">사은품</button>
+              </div>
+              <div class="swiper-slide" data-sale1="3">
+                <button type="button">페이백</button>
+              </div>
+              <div class="swiper-slide" data-sale1="4">
+                <button type="button">1+1</button>
+              </div>
+            </div>
+          </div>
+          <div class="group-sale sale-contents">
+            <div>
+              <h4 class="sub-title">절찬 세일 중</h4>
+              <p class="sub-desc">지금 가장 HOT한 갓성비 상품들만 모았어요</p>
+              <div class="swiper list sale-swiper">
+                <div class="swiper-wrapper" id="saleData1"></div>
+              </div>
+              <a href="" class="more-link">
+                특가 상품 <em>387개</em> 더 보기
+              </a>
+            </div>
+            <div>
+              <h4 class="sub-title">망설이면 놓쳐요</h4>
+              <p class="sub-desc">3일이면 사라지는 특가 찬스! 지금 확인해 보세요</p>
+              <div class="swiper list sale-swiper">
+                <div class="swiper-wrapper" id="saleData2"></div>
+              </div>
+              <a href="" class="more-link">
+                종료임박 <em>2개</em> 더 보기
+              </a>
+            </div>
+            <div>
+              <h4 class="sub-title">사은품 퍼레이드</h4>
+              <p class="sub-desc">쇼핑 만족도 UP! 여기가 바로 사은품 맛집</p>
+              <div class="swiper list sale-swiper">
+                <div class="swiper-wrapper" id="saleData3"></div>
+              </div>
+              <a href="" class="more-link">
+                사은품 증정 상품 <em>294개</em> 더 보기
+              </a>
+            </div>
+            <div>
+              <h4 class="sub-title">페이백에 진심인 편</h4>
+              <p class="sub-desc">지금 GET하면 기프트카드로 돌려드려요</p>
+              <div class="swiper list sale-swiper">
+                <div class="swiper-wrapper" id="saleData4"></div>
+              </div>
+              <a href="" class="more-link">
+                페이백 상품 <em>69개</em> 더 보기
+              </a>
+            </div>
+            <div>
+              <h4 class="sub-title">하나사면 하나 더</h4>
+              <p class="sub-desc">내 애정템, 이번 기회에 하나 더 쟁여두세요</p>
+              <div class="swiper list" id="sale-swiper">
+                <div class="swiper-wrapper" id="saleData5"></div>
+              </div>
+              <a href="" class="more-link">
+                1+1 상품 <em>5개</em> 더 보기
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- event -->
+        <section class="sc-event">
+          <div class="headline">
+              <h2 class="title"><a href="">브랜드별 이벤트</a></h2>
+              <div class="sub-area"><span class="desc">좋아하는 브랜드가 있다면 여기를 주목해보세요</span></div>
+          </div>
+          <div class="swiper" id="event-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="" class="brand-link">
+                  <span class="logo-area">
+                    <img src="./assets/img/event_logo01.png" alt="오설록">
+                  </span>
+                  <div class="name-area">
+                    <strong class="name">오설록</strong>
+                    <span class="desc">차와 제주가 선사하는 삶의 아름다움</span>
+                  </div>
+                </a>
+                <a href="" class="product-link">
+                  <div class="thumb-area">
+                    <img src="./assets/img/event_large01.png" alt="오설록 X 바이탈뷰티 앵콜판매!">
+                  </div>
+                  <div class="text-area">
+                    <strong class="sub-title">오설록 X 바이탈뷰티 앵콜판매!</strong>
+                    <span class="desc">웨하스/부스터샷外 최대 35% OFF</span>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                  <a href="" class="brand-link">
+                    <span class="logo-area">
+                      <img src="./assets/img/event_logo02.png" alt="마몽드">
+                    </span>
+                    <div class="name-area">
+                      <strong class="name">마몽드</strong>
+                      <span class="desc">간결하게 확실하게, 가장 나다운 아름다움</span>
+                    </div>
+                  </a>
+                  <a href="" class="product-link">
+                    <div class="thumb-area">
+                      <img src="./assets/img/event_large02.png" alt="마몽드 최대 55% SALE!">
+                    </div>
+                    <div class="text-area">
+                      <strong class="sub-title">마몽드 최대 55% SALE!</strong>
+                      <span class="desc">4만원 이상 구매시 토너 5종키트 추가증정</span>
+                    </div>
+                  </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="brand-link">
+                  <span class="logo-area">
+                    <img src="./assets/img/event_logo03.png" alt="홀리추얼">
+                  </span>
+                  <div class="name-area">
+                    <strong class="name">홀리추얼</strong>
+                    <span class="desc">나를 위한 매일의 의식, 홀리추얼</span>
+                  </div>
+                </a>
+                <a href="" class="product-link">
+                  <div class="thumb-area">
+                    <img src="./assets/img/event_large03.png" alt="빛나는 피부를 위한 썸머 테라피">
+                  </div>
+                  <div class="text-area">
+                    <strong class="sub-title">빛나는 피부를 위한 썸머 테라피</strong>
+                    <span class="desc">#최대15%할인 #뷰티포인트 증정</span>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="brand-link">
+                  <span class="logo-area">
+                    <img src="./assets/img/event_logo04.png" alt="보타닉센스">
+                  </span>
+                  <div class="name-area">
+                    <strong class="name">보타닉센스</strong>
+                    <span class="desc">영양학자가 만든 더마 코스메틱 브랜드</span>
+                  </div>
+                </a>
+                <a href="" class="product-link">
+                  <div class="thumb-area">
+                    <img src="./assets/img/event_large04.jpg" alt="힘없는 모발. 영양학자의 솔루션은?">
+                  </div>
+                  <div class="text-area">
+                    <strong class="sub-title">힘없는 모발. 영양학자의 솔루션은?</strong>
+                    <span class="desc">딥 루티드 스칼프 토닉 특가!</span>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="brand-link">
+                  <span class="logo-area">
+                    <img src="./assets/img/event_logo02.png" alt="마몽드">
+                  </span>
+                  <div class="name-area">
+                    <strong class="name">마몽드</strong>
+                    <span class="desc">간결하게 확실하게, 가장 나다운 아름다움</span>
+                  </div>
+                </a>
+                <a href="" class="product-link">
+                  <div class="thumb-area">
+                    <img src="./assets/img/event_large02.png" alt="마몽드 최대 55% SALE!">
+                  </div>
+                  <div class="text-area">
+                    <strong class="sub-title">마몽드 최대 55% SALE!</strong>
+                    <span class="desc">4만원 이상 구매시 토너 5종키트 추가증정</span>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="brand-link">
+                  <span class="logo-area">
+                    <img src="./assets/img/event_logo03.png" alt="홀리추얼">
+                  </span>
+                  <div class="name-area">
+                    <strong class="name">홀리추얼</strong>
+                    <span class="desc">나를 위한 매일의 의식, 홀리추얼</span>
+                  </div>
+                </a>
+                <a href="" class="product-link">
+                  <div class="thumb-area">
+                    <img src="./assets/img/event_large03.png" alt="빛나는 피부를 위한 썸머 테라피">
+                  </div>
+                  <div class="text-area">
+                    <strong class="sub-title">빛나는 피부를 위한 썸머 테라피</strong>
+                    <span class="desc">#최대15%할인 #뷰티포인트 증정</span>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="brand-link">
+                  <span class="logo-area">
+                    <img src="./assets/img/event_logo01.png" alt="오설록">
+                  </span>
+                  <div class="name-area">
+                    <strong class="name">오설록</strong>
+                    <span class="desc">차와 제주가 선사하는 삶의 아름다움</span>
+                  </div>
+                </a>
+                <a href="" class="product-link">
+                  <div class="thumb-area">
+                    <img src="./assets/img/event_large01.png" alt="오설록 X 바이탈뷰티 앵콜판매!">
+                  </div>
+                  <div class="text-area">
+                    <strong class="sub-title">오설록 X 바이탈뷰티 앵콜판매!</strong>
+                    <span class="desc">웨하스/부스터샷外 최대 35% OFF</span>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="brand-link">
+                  <span class="logo-area">
+                    <img src="./assets/img/event_logo03.png" alt="홀리추얼">
+                  </span>
+                  <div class="name-area">
+                    <strong class="name">홀리추얼</strong>
+                    <span class="desc">나를 위한 매일의 의식, 홀리추얼</span>
+                  </div>
+                </a>
+                <a href="" class="product-link">
+                  <div class="thumb-area">
+                    <img src="./assets/img/event_large03.png" alt="빛나는 피부를 위한 썸머 테라피">
+                  </div>
+                  <div class="text-area">
+                    <strong class="sub-title">빛나는 피부를 위한 썸머 테라피</strong>
+                    <span class="desc">#최대15%할인 #뷰티포인트 증정</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- best -->
+        <section class="sc-best">
+          <div class="headline">
+            <div class="date">
+              <button type="button" class="btn-date">오늘</button>
+            </div>
+            <h3 class="title">
+              <a href="">제일 잘 나갔어요</a>
+            </h3>
+          </div>
+          <div class="group-product" id="bestData">
+          </div>
+        </section>
+        <!-- popup_04 -->
+        <section class="modal-popup-wrap sc-popup04">
+          <div class="popup-area">
+            <div class="popup-bg"></div>
+            <div class="popup-inner">
+              <button type="button" class="btn-handler">
+                <span class="blind">레이어 끌기 버튼</span>
+              </button>
+              <div class="head-wrap">
+                <h2>조회기간</h2>
+              </div>
+              <div class="cont-wrap">
+                <ul class="option-list" id="pop_period">
+                  <li data-cate3="0" class="today active"><button type="button">오늘</button></li>
+                  <li data-cate3="1"><button type="button">이번 주</button></li>
+                  <li data-cate3="2"><button type="button">이번 달</button></li>
+              </ul>
+              </div>
+              <button class="btn-close">
+                <span class="blind">전체보기 닫기</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="scrolltop">
+        <button id="topBtn" class="btn-top" type="button">
+          <span class="blind">페이지 상단 이동</span>
+        </button>
+      </div>
+      <div class="action-bar">
+        <h2 class="blind">action bar</h2>
+        <ul class="action-list">
+          <li class="action-item"><a href="" class="home-link"><span class="blind">홀</span></a></li>
+          <li class="action-item"><a href="" class="search-link"><span class="blind">검색</span></a></li>
+          <li class="action-item"><a href="" class="smart-link">
+            <img src="assets/img/action-smart.png" alt="smart beauty">
+            <span class="blind">스마트 뷰티</span></a></li>
+          <li class="action-item"><a href="" class="my-link"><span class="blind">마이페이지</span></a></li>
+          <li class="action-item"><a href="" class="history-link"><span class="blind">히스토리</span></a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <section class="sc-notice">
+        <h2 class="blind">공지사항</h2>
+        <span class="notice-title">공지사항</span>
+        <div class="notice-text">
+          <div class="swiper" id="footer-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">🎈[AMORE MALL LIVE] 뷰티로드X에스트라 테라크네 라이브 방송 (5/23)🎈 이벤트 최종 당첨자 공지</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">아모레몰 NEW 쇼핑 멤버십 위크, 등급 UP! 혜택UP! 이벤트 당첨자 공지</a>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <a href="">🎈[AMORE MALL LIVE] 헤라 선크림 3종 라이브 방송 (5/24)🎈 이벤트 최종 당첨자 공지</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="" class="icon"><span class="blind">바로가기</span></a>
+      </section>
+      <section class="sc-footer">
+        <h2 class="blind">amoremall footer</h2>
+        <ul class="group-link large">
+          <li class="link-item"><a href="">로그인</a></li>
+          <li class="link-item"><a href="">고객센터</a></li>
+          <li class="link-item"><a href="">임직원서비스</a></li>
+        </ul>
+        <address class="group-info">
+          <p class="top-area">(주)아모레퍼시픽<br>서울특별시 용산구 한강대로 100(한강로2가)<br>080-030-5454 (쇼핑문의) / 080-023-5454
+            (제품문의)<br>support_kr@amoremall.com (주문/배송/쇼핑 문의)<br>biz_amoremall@amorepacific.com (비즈니스 문의)</p>
+          <p class="bottom-area">대표이사 : 이동순 / 사업자등록번호 : 106-86-43373<br>통신판매업신고번호 : 2017-서울용산-1308<a
+            href="">사업자 정보 확인</a><br>건강기능식품판매업 영업신고증 제8호<br>호스팅제공자 : (주)아모레퍼시픽</p>
+        </address>
+        <div class="group-info second">
+          <p class="top-area">개별 판매자가 입점하여 등록한 상품에 대한 광고, 상품주문, 배송, 환불의 의무와 책임은 각 입점판매자가 부담하고, 이에 대하여 ㈜아모레퍼시픽은
+            통신판매중개자로서 통신판매의 당사자가 아니므로 일체 책임을 지지 않습니다.<br><a href="">중개판매 분쟁해결 기준</a></p>
+          <p class="bottom-area">
+            <strong>구매안전서비스 제공 안내</strong>
+            <a href="">가입 사실 확인</a><br>저희 쇼핑몰은 고객님의 안전거래를 위해 모든 무통장입금 주문에 대해 KG이니시스의 에스크로 구매안전서비스를 자동
+            적용하고 있습니다.
+          </p>
+        </div>
+        <ul class="group-link small">
+          <li class="link-item"><a href="">이용약관</a></li>
+          <li class="link-item"><a href=""><strong>개인정보처리방침</strong></a></li>
+        </ul>
+        <div class="group-copyright">
+          <address class="text-area">
+            © AMOREPACIFIC CORPORATION.<br>ALL RIGHTS RESERVED
+          </address>
+          <div class="thumb-area">
+            <div class="icon"><span class="blind">2019 & AWARD GRAND PRIX</span></div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  <!-- //footer -->
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "items":[
+    {
+      "id": 0,
+      "title":"홈",
+      "point":false
+    },
+    {
+      "id": 0,
+      "title":"BEST",
+      "point":true
+    },
+    {
+      "id": 0,
+      "title":"브랜드",
+      "point":false
+    },
+    {
+      "id": 0,
+      "title":"세일",
+      "point":false
+    },
+    {
+      "id": 0,
+      "title":"신상",
+      "point":false
+    },
+    {
+      "id": 0,
+      "title":"선물추천",
+      "point":false
+    },
+    {
+      "id": 0,
+      "title":"이벤트",
+      "point":false
+    }
+  ]
+}
